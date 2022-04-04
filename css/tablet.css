@@ -1,0 +1,19 @@
+.product__cards-container{
+    /*Posicionar en rows*/
+    display: flex;
+    /*Evitar el scroll y overflow*/
+    flex-wrap: wrap;
+    /*El contenedor de estas tarjetas sera de 930 para poder tener dos columnas, de ahi en adelante no crecera mas*/
+    width: 930px;
+    /*Centrar*/
+    margin: 0 auto;
+}
+
+.main__tables-container-slider{
+    justify-content: space-evenly;
+}
+
+.plans__container-slider{
+ /*A los 930px centrara el contenido*/
+ justify-content: center;   
+}
